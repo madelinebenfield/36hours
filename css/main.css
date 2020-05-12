@@ -1,0 +1,73 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 90px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+ }
+ .div1 {
+    grid-area: 1 / 1 / 2 / 3;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 42px;
+    font-family: 'DM Mono', monospace;
+    position: fixed;
+    height: 100px;
+    color: yellowgreen;
+ }
+ .div2 {
+    grid-area: 3 / 1 / 5 / 3;
+    position: fixed;
+    top: 200px;
+    right: 60%;
+    left: 2%;
+    font-family: 'DM Mono', monospace;
+    text-indent: hanging;
+    padding: 5px;
+    padding-right: 10px;
+ }
+ .div4 {
+    grid-area: 2 / 3 / 6 / 6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+    line-height: 1.5;
+    right: 5%;
+ }
+ #line1{
+     height: 5px;
+     width: 90%;
+     margin-top: 35px;
+     margin-bottom: 35px;
+     background-color: yellowgreen;
+}
+.elizabeth{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.samvogel{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.ingredients{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+}
+@media only screen
+ and (min-device-width: 0px)
+ and (max-device-width: 667px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: portrait) {
+     .div1{
+        
+        margin-left: 10px;
+        margin-right: 200px;
+     }
+     .div4{
+         font-size: 12pt;
+         line-height: 1.2;
+     }
+ }
