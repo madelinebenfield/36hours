@@ -18,7 +18,7 @@ body{
 .title{
   grid-area: 1 / 1 / 2 / 2;
   top: 50px;
-  font-size: 6.9vw;
+  font-size: 70px;
   padding-left: 15px;
   padding-top: 15px;
   position: fixed;
@@ -54,7 +54,7 @@ marquee{
   text-indent: hanging;
   padding: 5px;
   padding-right: 10px;
-  top: 20%;
+  top: 25%;
   z-index: 50;
   font-size: 10pt;
 }
@@ -92,15 +92,15 @@ img{
   margin-left: 25%;
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
 .caption{
-  margin-left: 9em;
-  margin-right: 9em;
+  margin-left: 25%;
+  margin-right: 25%;
   font-style: normal;
   font-size: 9pt;
-  text-align: center;
+  text-align: left;
 }
 a:visited{
   color: black;
